@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY"; // 🔑 Replace with your OpenWeather API key
+const apiKey = "5426a3040fbb7e68cfccea57a601eb34"; // 🔑 Replace with your OpenWeather API key
 
 async function getWeather() {
     const city = document.getElementById("city").value;
@@ -83,3 +83,4 @@ function displayForecast(data) {
         forecastDiv.appendChild(card);
     });
 }
+
